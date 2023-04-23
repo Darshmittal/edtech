@@ -1,0 +1,139 @@
+.homepage {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .dropdown-container {
+    position: relative;
+  }
+  
+  .dropdown-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .dropdown-header:hover,
+  .dropdown-header.active {
+    background-color: #f2f2f2;
+  }
+  
+  .dropdown-header.active .fa-caret-down {
+    transform: rotate(180deg);
+  }
+  
+  .fa-caret-down {
+    margin-left: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .dropdown-container {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .dropdown-options {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 5px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .option {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .option:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .selected-option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .selected-option p {
+    font-size: 1.2rem;
+  }
+  
+  .selected-option h2 {
+    font-size: 2rem;
+    margin-top: 10px;
+  }
+  
+  .static-content {
+    text-align: center;
+  }
+  
+  .static-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .static-content ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .static-content li {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+  }
+  
+  .static-content li:before {
+    content: '•';
+    position: absolute;
+    left: 0;
+  }

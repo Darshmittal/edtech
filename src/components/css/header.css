@@ -1,0 +1,59 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2933;
+    color: #fff;
+    height: 80px;
+    padding: 0 50px;
+  }
+  
+  .menu-icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .logo {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .program {
+    font-size: 1.2rem;
+    display: block;
+  }
+
+  .program-container {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+  
+  .program {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 5px;
+  }
+  
+  .app-bar ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .app-bar li {
+    margin-right: 20px;
+  }
+  
+  .app-bar a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.1rem;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .app-bar a:hover {
+    color: #FBBF24;
+    border-bottom: 2px solid #FBBF24;
+  }
